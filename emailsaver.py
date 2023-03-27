@@ -22,6 +22,13 @@ def retrieve():
             break
 
 while True:
+    print("Welcome to Email Saver\nYou save Your Emails and password safely with the help of this tool")
+    print('''  ______                _ __   _____                      
+   / ____/___ ___  ____ _(_) /  / ___/____ __   _____  _____
+  / __/ / __ `__ \/ __ `/ / /   \__ \/ __ `/ | / / _ \/ ___/
+ / /___/ / / / / / /_/ / / /   ___/ / /_/ /| |/ /  __/ /    
+/_____/_/ /_/ /_/\__,_/_/_/   /____/\__,_/ |___/\___/_/     
+~~~~~~~~~~~~~~~~~Created By Deep Verma~~~~~~~~~~~~~~~~~~''')
     x=int(input("Type 1 for log and 2 for retrieve: "))
     if x==1:
         log()
@@ -31,4 +38,5 @@ while True:
         print("Something Wrong!")
     ans=input("Do want to Again Log or Retrieve\nY\nN: ")
     if ans=='n':
+        print("Good Bye!")
         break
